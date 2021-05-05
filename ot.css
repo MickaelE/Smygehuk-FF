@@ -1,0 +1,75 @@
+@charset "UTF-8";
+/* CSS Document */
+h1 {
+  color: black;
+  text-align: center;
+}
+h2 {
+  color: black;
+  text-align: center;
+}
+p {
+  font-family: verdana;
+  font-size: 20px;
+}
+#prislista {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#prislista td, #customers th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+img {
+    width: 100%;
+    background-image: url("banner.png");
+    height: 55%;
+    background-color: white;
+    background-position: left;
+    min-width: 0%;
+}
+#prislista tr:nth-child(even){background-color: #f2f2f2;}
+
+#prislista tr:hover {background-color: #ddd;}
+
+#prislista th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+form{
+    height: 300px;
+    margin: auto;
+    padding: 20px;
+    width: 350px;
+}
+label{
+     background:#fff;
+     clear: both;
+     display: inline-block;
+     float: right;
+     margin-bottom: 15px;
+     text-align: right;
+     font-family:Verdana, Geneva, sans-serif;
+     font-size:12px;
+     color:#CCC;
+}
+label input{
+     height:25px;
+     width:250px;
+     background:#fff;
+     border:1px solid #CCC;
+     box-shadow: 0px 0px 1px 1px rgba(50, 50, 50, 0.25) inset;
+}
+textarea{
+     height:75px;
+     width:250px;
+     background:#fff;
+     border:1px solid #CCC;
+     box-shadow: 0px 0px 1px 1px rgba(50, 50, 50, 0.25) inset;
+     -webkit-box-shadow: rgba(50, 50, 50, 0.25) 0px 0px 1px 1px inset;
+}
